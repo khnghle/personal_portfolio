@@ -1,16 +1,17 @@
-//import Link from 'next/Link'
+import projectData from './project.json';
+import Project from './project';
 
-
-export default function Project() {
+export default function Projects() {
   return (
-    <div>
-      <h2>Some examples of projects I've worked on</h2>
+    <div id="projects">
+      <h2>Projects</h2>
+      <hr />
 
-      <div>Project One</div>
-      <div>Project Two</div>
-      <div>Project Three</div>
-      
+      <div className="project-list">
+        {projectData.map((curr) => (
+          <Project data={curr} key={curr.id} />
+        ))}
+      </div>
     </div>
-  )
+  );
 }
-

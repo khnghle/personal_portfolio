@@ -1,6 +1,7 @@
 import familar from './familar.json';
 import knowledgeable from './knowledgeable.json';
 import proficient from './proficient.json';
+import Skill from './skill';
 
 export default function Skills() {
   return (
@@ -9,35 +10,9 @@ export default function Skills() {
       <hr />
 
       <div className="skill-categories">
-        <div>
-          <h3>Familar</h3>
-          <hr />
-          <ul>
-            {familar.map((curr) => (
-              <li>{curr}</li>
-            ))}
-          </ul>
-        </div>
-
-        <div>
-          <h3>Knowledgeable</h3>
-          <hr />
-          <ul>
-            {knowledgeable.map((curr) => (
-              <li>{curr}</li>
-            ))}
-          </ul>
-        </div>
-
-        <div>
-          <h3>Proficient</h3>
-          <hr />
-          <ul>
-            {proficient.map((curr) => (
-              <li>{curr}</li>
-            ))}
-          </ul>
-        </div>
+        <Skill category="Familar" data={familar}/>
+        <Skill category="Knowledgeable" data={knowledgeable}/>
+        <Skill category="Proficient" data={proficient}/>
       </div>
     </div>
   );

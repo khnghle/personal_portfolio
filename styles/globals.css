@@ -91,7 +91,7 @@ hr {
   width: 100%;
 }
 
-#introduction {
+#introduction, #contact-me {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -99,7 +99,7 @@ hr {
   width: 100%;
 }
 
-#skill {
+#skill, #projects {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -107,7 +107,7 @@ hr {
   margin-top: 1em;
 }
 
-.skill-categories{
+.skill-categories, .project-list{
   display: flex;
   justify-content: space-around;
   align-items: baseline;
@@ -116,7 +116,7 @@ hr {
   margin-top: 5%;
 }
 
-.skill-categories > div {
+.skill-categories > div,  .project-list > div {
   border: 0.5em solid black;
   width: 20em;
   height: 25em;

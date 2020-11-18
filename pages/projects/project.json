@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Graceful-Suds",
+    "description": "Some description about soap",
+    "role": "group-dev",
+    "tools": "some list of tools",
+    "img": "some img"
+  },
+  {
+    "id": 2,
+    "name": "Daily-Schedule",
+    "description": "Some description about sceduling",
+    "role": "solo-dev",
+    "tools": "some list of tools",
+    "img": "some img"
+  },
+  {
+    "id":3,
+    "name": "Chalkboard",
+    "description": "Some description about Education",
+    "role": "group-dev",
+    "tools": "some list of tools",
+    "img": "some img"
+  }
+]

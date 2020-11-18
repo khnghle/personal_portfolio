@@ -34,11 +34,6 @@ export default function SideBar() {
           >
             Projects
           </Link>
-          <ul className="collapse list-unstyled" id="pageSubmenu">
-            <li>Page 1</li>
-            <li>Page 2</li>
-            <li>Page 3</li>
-          </ul>
         </div>
 
         <hr className="solid"/>
