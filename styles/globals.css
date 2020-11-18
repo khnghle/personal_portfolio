@@ -21,25 +21,67 @@ a {
   align-items: stretch;
 }
 
-#sidebar {
-  min-width: 10em;
-  max-width: 10em;
-  min-height: 100vh;
+#sidebar-container {
+  min-width: 15em;
+  max-width: 30em;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(187, 209, 241);
 }
 
-#sidebar-content{
+#sidebar-container img {
+  border-radius: 50%;
+  border: .20em solid rgb(84, 149, 247);
+}
+
+.sidebar-header{
+  padding-top: 1em;
+  margin-bottom: 0.75em;
+  padding-bottom: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("https://media.nature.com/lw800/magazine-assets/d41586-020-01390-w/d41586-020-01390-w_17974388.jpg");
+}
+
+.sidebar-header > div {
+  color: white;
+}
+
+.sidebar-footer{
+  margin-top:auto;
+  padding-bottom:1em;
+  padding-left:1em;
+  padding-right:1em;
+  font-size: smaller;
+}
+
+.sidebar-link > div {
+  padding-left: 1em;
+}
+
+.link-icons, .footer-text{
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
-a[data-toggle="collapse"]{
-  position: relative;
+.link-icons > a {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
 }
 
-.dropdown-toggle::after {
-  display: block;
-  position: absolute;
-  top: 50%;
-  right: 20px;
-  transform: translateY(-50%);
+/* .crazy-border {
+  border: 10px dashed black;
+} */
+
+div[class*=sidebar]{
+  width: 100%;
+}
+
+hr {
+  color: black;
+  width: 100%;
 }
