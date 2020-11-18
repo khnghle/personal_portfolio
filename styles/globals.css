@@ -68,9 +68,14 @@ a {
   justify-content: center;
 }
 
-.link-icons > a {
+.link-icons > a{
   padding-left: 0.5em;
   padding-right: 0.5em;
+}
+
+.about-buttons > button, .skill-categories > div {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
 }
 
 /* .crazy-border {
@@ -84,4 +89,36 @@ div[class*=sidebar]{
 hr {
   color: black;
   width: 100%;
+}
+
+#introduction {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-top: 1em;
+}
+
+.skill-categories{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  width: 100%;
+  height: 100%;
+  margin-top: 5%;
+}
+
+.skill-categories > div {
+  border: 0.5em solid black;
+  width: 20em;
+  height: 25em;
+  padding: 0.5em;
 }
