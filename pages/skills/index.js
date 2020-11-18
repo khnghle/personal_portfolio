@@ -9,6 +9,8 @@ export default function Skills() {
       <h2>Skills</h2>
       <hr />
 
+      <p>Short description about my skills</p>
+
       <div className="skill-categories">
         <Skill category="Familar" data={familar}/>
         <Skill category="Knowledgeable" data={knowledgeable}/>
