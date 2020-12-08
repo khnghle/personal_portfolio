@@ -3,12 +3,11 @@ export default function Skill(props) {
   return (
     <div>
       <h3>{category}</h3>
-      <hr />
-      <ul>
+      <div className="skill-list">
         {data.map((curr) => (
-          <li>{curr}</li>
+          <div className="skill-list-item">{curr}</div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 }

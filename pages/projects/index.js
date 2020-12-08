@@ -7,7 +7,7 @@ export default function Projects() {
       <h2>Projects</h2>
       <hr />
 
-      <div>Short description about my projects</div>
+      <div>These are some of my recent projects!</div>
 
       <div className="project-list">
         {projectData.map((curr) => (

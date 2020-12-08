@@ -6,10 +6,11 @@ export default function SideBar() {
   return (
     <div id="sidebar-container" className="crazy-border">
       <div className="crazy-border sidebar-header">
-        <Image src='/profile.png'
+        <Image
+          src="/profile.png"
           alt="picture of author"
           width={'125em'}
-          height = {'125em'}
+          height={'125em'}
         />
         <div>Khuong Le</div>
         <div>khnghle@gmail.com</div>
@@ -17,13 +18,17 @@ export default function SideBar() {
 
       <div className="crazy-border sidebar-link">
         <div>
-          <Link href="/">About</Link>
+          <Link href="/">Home</Link>
         </div>
-        <hr className="solid"/>
+        <hr className="solid" />
+        <div>
+          <Link href="/about">About</Link>
+        </div>
+        <hr className="solid" />
         <div>
           <Link href="/skills">Skills</Link>
         </div>
-        <hr className="solid"/>
+        <hr className="solid" />
 
         <div>
           <Link
@@ -36,16 +41,10 @@ export default function SideBar() {
           </Link>
         </div>
 
-        <hr className="solid"/>
-
-        <div>
-          <Link href="/contact">Contact Me</Link>
-        </div>
-        <hr className="solid"/>
+        <hr className="solid" />
       </div>
 
-      <Footer className="sidebar-footer"/>
-
+      <Footer className="sidebar-footer" />
     </div>
   );
 }
