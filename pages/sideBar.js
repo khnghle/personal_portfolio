@@ -33,9 +33,6 @@ export default function SideBar() {
         <div>
           <Link
             href="/projects"
-            data-toggle="collapse"
-            aria-expanded="false"
-            className="dropdown-toggle"
           >
             Projects
           </Link>

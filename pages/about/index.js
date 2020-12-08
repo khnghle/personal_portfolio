@@ -1,7 +1,5 @@
 export default function Home() {
-  function onClick(text) {
-    console.log('This should display something');
-  }
+
   return (
     <div id="introduction">
 

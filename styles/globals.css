@@ -4,7 +4,6 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  /* color: rgba(207, 229, 255, 1); */
   color: white;
 }
 
@@ -160,13 +159,9 @@ hr {
   width: 18em;
   height: 21em;
   margin-top: 1%;
-
-  /* border: 0.2em solid rgba(167, 189, 221, 0.8);
-  background-color: rgba(167, 189, 221, 0.4); */
   display: flex;
   flex-direction: column;
   justify-content: baseline;
-  /* align-items: center; */
 }
 
 .skill-list {
@@ -177,10 +172,49 @@ hr {
 .skill-list-item {
   margin: 0.3em 0.6em 0.3em 0;
   padding: 0.5em;
-  background-color: rgba(167, 189, 221, 0.8);
+  background-color: rgba(167, 189, 221, 0.6);
   border-radius: 10%;
 }
 
 .skill-list-item:hover {
-  background-color: rgba(127, 149, 181, 1);
+  background-color: rgba(167, 189, 221, 1);
+}
+
+.project-img {
+  widows: 100%;
+  height: 50%;
+  object-fit: contain;
+  z-index: 0;
+}
+.project-img:hover{
+  opacity: 0.5;
+}
+
+.project-img:hover + .project-text{
+  position: absolute;
+  background-color: black;
+  display: block;
+}
+
+.project-container {
+  position: relative;
+}
+
+.project-text{
+  display: none;
+}
+
+.project{
+  font-size: small;
+  margin: 0.2em 0.4em 0.2em 0;
+  padding: 0.2em;
+  border-radius: 10%;
+}
+
+.project-links > a {
+  margin: 0.2em 0.4em 0.2em 0;
+}
+
+.project-links{
+  float: right;
 }

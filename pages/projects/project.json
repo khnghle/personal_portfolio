@@ -3,24 +3,33 @@
     "id": 1,
     "name": "Graceful-Suds",
     "description": "Some description about soap",
-    "role": "group-dev",
-    "tools": "some list of tools",
-    "img": "some img"
+    "tools": ["React", "Redux", "Express", "Sequelize", "Socket.io", "PostgreSQL", "Google OAuth"],
+    "img": "Graceful-Suds.png",
+    "links": {
+      "github": "https://github.com/khnghle/graceful-suds"
+    }
   },
   {
     "id": 2,
     "name": "Daily-Schedule",
     "description": "Some description about sceduling",
-    "role": "solo-dev",
-    "tools": "some list of tools",
-    "img": "some img"
+    "tools": ["Create-React-App", "React", "Firebase", "Chart.js"],
+    "img": "Daily-Schedule.png",
+    "links": {
+      "github": "https://github.com/khnghle/daily-schedule",
+      "video": "https://youtu.be/CXmfcEbNb_g"
+    }
   },
   {
     "id":3,
     "name": "Chalkboard",
     "description": "Some description about Education",
-    "role": "group-dev",
-    "tools": "some list of tools",
-    "img": "some img"
+    "tools": ["React", "Redux", "PostgreSQL","Express","Sequelize", "ZoomSDK", "Socket.io"],
+    "img": "Chalkboard.png",
+    "links": {
+      "github": "https://github.com/khnghle/chalkboard",
+      "link": "https://chalkboard-fsa.herokuapp.com/",
+      "video": "https://youtu.be/3xJPDxcaET4"
+    }
   }
 ]
