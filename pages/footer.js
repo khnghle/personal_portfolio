@@ -9,7 +9,7 @@ export default function Footer() {
           <i className="fab fa-linkedin-in fa-2x"></i>
         </a>
         <a href="mailto: khnghle@gmail.com">
-          <i class="fas fa-envelope fa-2x"></i>
+          <i className="fas fa-envelope fa-2x"></i>
         </a>
         <a href="Khuong_Resume.docx.pdf" download>
           <i className="far fa-file fa-2x"></i>

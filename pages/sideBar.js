@@ -1,19 +1,14 @@
 import Footer from './footer';
 import Link from 'next/Link';
-import Image from 'next/image';
 
 export default function SideBar() {
   return (
     <div id="sidebar-container" className="crazy-border">
       <div className="crazy-border sidebar-header">
-        <Image
-          src="/profile.png"
-          alt="picture of author"
-          width={'125em'}
-          height={'125em'}
-        />
+
+        <img src="profile.jpg" alt="picture of author" id="profile-pic"/>
         <div>Khuong Le</div>
-        <div>khnghle@gmail.com</div>
+        <div id="profile-email">khnghle@gmail.com</div>
       </div>
 
       <div className="crazy-border sidebar-link">

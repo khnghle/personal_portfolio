@@ -23,7 +23,6 @@ a {
 }
 
 #sidebar-container {
-  min-width: 15em;
   max-width: 30em;
   height: 100vh;
   display: flex;
@@ -84,10 +83,12 @@ div[class*=sidebar]{
   width: 100%;
 }
 
+
 hr {
   color: black;
   width: 100%;
 }
+
 
 #introduction, #home {
   display: flex;
@@ -101,11 +102,12 @@ hr {
 }
 
 #home {
-  background: url('../public/skyline.jpg');
+  background: url('../public/skyline2.png');
   background-repeat: no-repeat;
   background-size: cover;
   color: white;
   padding-top: 10em;
+  height:100vh;
   
 }
 
@@ -115,7 +117,7 @@ hr {
 }
 
 .intro-description{
-  width: 50em;
+  width: 80%;
   background-color: rgba(167, 189, 221, 0.4);
   padding: 1em 1em 0em 1em;
   border-radius: 4%;
@@ -142,12 +144,13 @@ hr {
   align-items: baseline;
   width: 100%;
   height: 100%;
+  flex-flow: wrap;
 }
 
 .project-list > div {
   width: 18em;
   height: 21em;
-  margin-top: 1%;
+  margin: 1% 1em 0 1em;
   display: flex;
   flex-direction: column;
   justify-content: baseline;
@@ -206,6 +209,13 @@ hr {
   margin: 0.2em 0.4em 0.2em 0;
 }
 
+.sidebar-header > img{
+  height:10em;
+  width: 10em;;
+  object-fit: cover;
+
+}
+
 .project-links{
   float: right;
 }
@@ -220,4 +230,39 @@ hr {
 
 .home-button:hover {
   background-color: rgba(167, 189, 221, 0.5);
+}
+
+@media(max-width: 640px){
+  #profile-pic{
+    display: none;
+  }
+
+  #sidebar-container{
+    max-width: 10em;
+  }
+}
+
+@media(max-width: 500px){
+  #profile-pic, #profile-email{
+    display: none;
+  }
+
+  #sidebar-container{
+    max-width: 10em;
+    min-height: -webkit-fill-available;  
+  }
+
+  .project-list > div {
+    width: 10em;
+  }
+
+  #projects{
+    font-size: 0.5em;
+  }
+
+  .project{
+    font-size: 0.1em;
+    margin: 1em 1em 1em 0;
+    padding: 3em;
+  }
 }
