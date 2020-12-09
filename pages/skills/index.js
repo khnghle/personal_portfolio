@@ -15,6 +15,9 @@ export default function Skills() {
         <Skill category="Proficient" data={proficient}/>
         <Skill category="Knowledgeable" data={knowledgeable}/>
         <Skill category="Familiar" data={familar}/>
+        <Skill category="Familiar" data={familar}/>
+        <Skill category="Familiar" data={familar}/>
+        <Skill category="Familiar" data={familar}/>
       </div>
     </div>
   );

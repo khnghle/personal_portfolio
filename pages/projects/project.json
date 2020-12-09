@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Graceful-Suds",
-    "description": "Some description about soap",
+    "description": "A RESTful eccommerce web app which sells various types of soap",
     "tools": ["React", "Redux", "Express", "Sequelize", "Socket.io", "PostgreSQL", "Google OAuth"],
     "img": "Graceful-Suds.png",
     "links": {
@@ -12,8 +12,8 @@
   {
     "id": 2,
     "name": "Daily-Schedule",
-    "description": "Some description about sceduling",
-    "tools": ["Create-React-App", "React", "Firebase", "Chart.js"],
+    "description": "A productivity tracker which allows users to see how they are spending the day with some neat data vis",
+    "tools": ["React", "Create-React-App", "Firebase", "Chart.js"],
     "img": "Daily-Schedule.png",
     "links": {
       "github": "https://github.com/khnghle/daily-schedule",
@@ -23,7 +23,7 @@
   {
     "id":3,
     "name": "Chalkboard",
-    "description": "Some description about Education",
+    "description": "A learning plateform for teachers to stream lectures to their students, keep track of attendence, assign and grade various tasks",
     "tools": ["React", "Redux", "PostgreSQL","Express","Sequelize", "ZoomSDK", "Socket.io"],
     "img": "Chalkboard.png",
     "links": {
