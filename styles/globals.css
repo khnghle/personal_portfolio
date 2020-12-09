@@ -75,7 +75,7 @@ a {
   padding-right: 0.5em;
 }
 
-.about-buttons > button, .skill-categories > div {
+.about-buttons > button{
   margin-left: 0.5em;
   margin-right: 0.5em;
 }
@@ -121,18 +121,7 @@ hr {
   border-radius: 4%;
 }
 
- #skill > p {
-  width: 35em;
-  background-color: rgba(167, 189, 221, 0.4);
-  padding: 1em 1em 1em 1em;
-  border-radius: 30%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border: 0.2em solid rgba(167, 189, 221, 0.8);
-}
-
-#skill, #projects {
+#projects {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -143,11 +132,11 @@ hr {
 
 }
 
-#skill > div, #projects >div {
+#projects >div {
   margin-top: 1%;
 }
 
-.skill-categories, .project-list{
+.project-list{
   display: flex;
   justify-content: space-around;
   align-items: baseline;
@@ -155,7 +144,7 @@ hr {
   height: 100%;
 }
 
-.skill-categories > div,  .project-list > div {
+.project-list > div {
   width: 18em;
   height: 21em;
   margin-top: 1%;

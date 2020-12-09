@@ -25,10 +25,6 @@ export default function SideBar() {
           <Link href="/about">About</Link>
         </div>
         <hr className="solid" />
-        <div>
-          <Link href="/skills">Skills</Link>
-        </div>
-        <hr className="solid" />
 
         <div>
           <Link
