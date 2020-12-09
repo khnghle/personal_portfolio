@@ -209,3 +209,15 @@ hr {
 .project-links{
   float: right;
 }
+
+.home-button {
+  background-color: rgba(167, 189, 221, 0);
+  border: 0.01em solid rgba(167, 189, 221, 1);
+  margin: 0.5em 0.8em 0.5em 0;
+  color: white;
+  border-radius: 5%;
+}
+
+.home-button:hover {
+  background-color: rgba(167, 189, 221, 0.5);
+}

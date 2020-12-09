@@ -2,6 +2,7 @@ export default function Project(props) {
   const { name, description, tools, img, links } = props.data;
   return (
     <div className="project-container">
+      
       <img src={img} className="project-img"></img>
       <div className="project-text">
         <div>{name}</div>

@@ -16,7 +16,7 @@ export default function Home() {
           learning to a class of 30 aspiring developers.
       </p>
       <p>
-      In my free time, you can find me talking long walks along Chicago's
+      In my free time, you can find me taking long walks along Chicago's
           beautiful lakeshore drive, struggling at Linchess chess puzzles and
           jamming the few guitar chords which I actual do know!
       </p>

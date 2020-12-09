@@ -5,13 +5,13 @@ export default function ContactMe () {
       <p>Thanks for checking out my site!</p>
       <div className="about-buttons">
         <a href="mailto: khnghle@gmail.com">
-          <button>
+          <button className="home-button">
             Contact Me
           </button>
         </a>
 
         <a href="Khuong_Resume.docx.pdf" download>
-          <button>Resume</button>
+          <button className="home-button">Resume</button>
         </a>
 
       </div>
