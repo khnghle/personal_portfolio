@@ -1,5 +1,5 @@
 import Footer from './footer';
-import Link from 'next/Link';
+import Link from 'next/link';
 
 export default function SideBar() {
   return (
