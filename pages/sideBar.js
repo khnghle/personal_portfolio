@@ -13,17 +13,17 @@ export default function SideBar() {
 
       <div className="crazy-border sidebar-link">
         <div>
-          <Link href="personal_portfolio/">Home</Link>
+          <Link href="/">Home</Link>
         </div>
         <hr className="solid" />
         <div>
-          <Link href="personal_portfolio/about">About</Link>
+          <Link href="/about">About</Link>
         </div>
         <hr className="solid" />
 
         <div>
           <Link
-            href="personal_portfolio/projects"
+            href="/projects"
           >
             Projects
           </Link>
