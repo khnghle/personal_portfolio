@@ -1,3 +1,4 @@
 module.exports = {
-  assetPrefix: '/khnghle/'
+  assetPrefix: '/personal_portfolio/',
+  basePath: '/personal_portfolio/'
 }
