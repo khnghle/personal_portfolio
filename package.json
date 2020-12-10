@@ -2,16 +2,12 @@
   "name": "khuong-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://khnghle-personal-projects.github.io/personal_portfolio/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "start": "next start"
   },
   "dependencies": {
-    "gh-pages": "^3.1.0",
     "next": "10.0.0",
     "react": "17.0.1",
     "react-dom": "17.0.1"

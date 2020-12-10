@@ -1,12 +1,24 @@
+
+
 export default function Project(props) {
-  const { name, description, tools, img, links } = props.data;
+
+  const initial = {
+    name: '',
+    description: '',
+    tools: [],
+    img: '',
+    links: {}
+  }
+  let name, description, tools, img, links;  
+  props.data? {name, description, tools, img, links} = props.data: {name, description, tools, img, links} = initial;
+  
   return (
     <div className="project-container">
       
       <img src={img} className="project-img"></img>
       <div className="project-text">
-        <div>{name}</div>
-        <div>{description}</div>
+        <div>{name || ''}</div>
+        <div>{description || ''}</div>
       </div>
       <div>
         Technologies Used:
