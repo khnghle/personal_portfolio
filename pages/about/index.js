@@ -12,12 +12,12 @@ export default function Home() {
           challenging problems head-on. This love for innovation was what
           eventually lead me to coding; to enroll to Fullstack Academy, a
           fully immersive bootcamp; and finally to become a Teaching Fellow at
-          that very bootcamp, where I could continue foster that same love for
-          learning to a class of 30 aspiring developers.
+          that very bootcamp, where I could continue to foster that same love for
+          learning to a class of 35 aspiring developers.
       </p>
       <p>
       In my free time, you can find me taking long walks along Chicago's
-          beautiful lakeshore drive, struggling at Linchess chess puzzles and
+          beautiful Lakeshore Drive, struggling at Linchess chess puzzles and
           jamming the few guitar chords which I actual do know!
       </p>
 
