@@ -10,7 +10,7 @@ export default function ContactMe () {
           </button>
         </a>
 
-        <a href="Khuong_Resume.docx.pdf" download>
+        <a href="Khuong_Resume.pdf" download>
           <button className="home-button">Resume</button>
         </a>
 

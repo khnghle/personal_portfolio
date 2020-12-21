@@ -11,7 +11,7 @@ export default function Footer() {
         <a href="mailto: khnghle@gmail.com">
           <i className="fas fa-envelope fa-2x"></i>
         </a>
-        <a href="Khuong_Resume.docx.pdf" download>
+        <a href="Khuong_Resume.pdf" download>
           <i className="far fa-file fa-2x"></i>
         </a>
       </div>
